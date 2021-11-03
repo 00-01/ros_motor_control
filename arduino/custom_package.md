@@ -19,7 +19,7 @@
 #### add to CMakelist.txt(python)
     
 > catkin_install_python(PROGRAMS    
->     <name of the file>.py  
+>     (<name of the file>).py  
 >     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}) 
     
 
